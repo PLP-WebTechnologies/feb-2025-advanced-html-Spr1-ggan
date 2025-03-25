@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="eng"
+< head >
+    <meta charset="UTF-8">
+    <mata name="viewpoint" content = "width=device_width, initial scale = 1.0"></mata>
+    <title> My Cool Web Page</title>
+    <style>
+        img{
+            width: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1> To do list </h1>
+    <ol type = "i">
+        <li> Waking up very early</li>
+        <li> Preparing breakfast</li>
+        <li> Feeding my cats</li>
+        <li> Visiting my neighbour</li>
+        <li> Doing some household shopping</li>
+    </ol>
+    <img src="img/pexels-marco-carmona-79381080-31314773.jpg" alt="Dough in kitchen setting ">
+     <br> 
+    <h2> Contact List</h2>
+    
+    <table border="2px" height="300">
+        <tr>
+            <th> NAME </th>
+            <th> ADDRESS </th>
+            <th> MOBILE </th>
+            <th> EMAIL</th>
+        </tr>
+        <tr>
+            <td> John Doe</td>
+            <td> 123 Elm Street- Alaska</td>
+            <td> (123) 456-7890 </td>
+            <td> johndoe@gmail.com </td>
+        </tr>
+        <tr>
+            <td> Jane Doe </td>
+            <td> Flat 4 Baker Street- Cheyenne</td>
+            <td> (123) 455- 9078 </td>
+            <td> janedoe@gmail.com</td>
+        </tr>
+        <tr>
+            <td> Maria Jana</td>
+            <td> 456 Portland Avenue- Oregon</td>
+            <td> 0110457487</td>
+            <td> mariajana@gmail.com</td>
+        </tr>
+        <tr>
+            <td> Gabriel Santos</td>
+            <td> 521 Michigan State</td>
+            <td> 0908569262</td>
+            <td> gabisantos@gmail.com</td>
+        </tr>
+        <tr>
+            <td> Jiri Prochazka</td>
+            <td> 4799 Columbus Avenue</td>
+            <td> (298) 678-4798</td>
+            <td> jiriprochaz@gmail.com</td>
+        </tr>   
+    </table>
+    <br> 
+    <form>
+        <div>
+            <label for = "fname"> first name:</label>
+            <input type="text" id="fname" name="fname" placeholder="first" required>
+        </div>
+        <br>
+        <div>
+            <label for="lname"> last name :</label>
+            <input type ="text" id="lname" name="lname" placeholder="last"required>
+        </div>
+        <br>
+        <div>
+            <label for="email">email:</label>
+            <input type="email" id="email"name="email" placeholder="johndoe@gmail.com">
+        </div>
+        <br>
+        <div>
+            <label for="password" password:></label>
+            <input type="password" id="password" name="password" max length="10" required>
+        </div>
+        <br>
+        <div>
+            <label for="date"> date:</label>
+            <input type="date" id="date" name="date">
+        </div>
+        <br>
+        <div>
+            <label for="title">title: </label>
+
+            <label for="Mr."> Mr. </label>
+            <input type="radio" id="Mr." name="title" value="Mr.">
+
+            <label for="Mrs"> Mrs</label> 
+            <input type="radio" id="Mrs" name="title" value="Mrs">
+        </div>
+        <br>
+        <div>
+            <label for="City"> City</label>
+            <select id="City" name="City">
+                <option value="Nairobi"> Nairobi</option>
+                <option value="Mombasa"> Mombasa</option>
+                <option value="Kisumu"> Kisumu </option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="subscribe"> Subscribe </label>
+            <input type="checkbox" id="subscribe" name="subscribe" min="0">
+        </div>
+        <br>
+        <div>
+            <input type="reset">
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+
+
+</body>
